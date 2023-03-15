@@ -1,0 +1,11 @@
+the site api.exchangeratesapi.io/latest (as in Philipp Lackner's video) requires an access key.
+the site defers to apilayer.com to get an access key, but the key won't work.
+also, the exchange rates shown at
+https://youtu.be/ct5etYgB5pQ?list=PLQkwcJG4YTCSSow0ulsj-kIc6drYG_D0E&t=1293
+and can be copied from
+https://github.com/philipplackner/CurrencyConverter/blob/master/app/src/main/res/values/strings.xml
+are different than those shown on exchangeratesapi.io
+also, the Android Studio plugin that Philipp provided, namely JSON to Kotlin Class, won't do the
+conversion after pasting the rates from exchangeratesapi.io
+I can manually write the data classes so I won't have to use the plugin, but I'm not familiar with
+and not sure if the rates can be converted as a Map in Retrofit
